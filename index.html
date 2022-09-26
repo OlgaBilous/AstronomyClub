@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  <title>Astronomyclub</title>
+</head>
+<body>
+
+    <header>
+        <h1>Astronomyclub</h1>
+    </header>
+    <section class="banner">
+        <img src="img3/banner.png" alt="astronomyclub welcome banner">
+        <div class="welcome">
+            <h2>Welcome to <br><span>Astronomyclub</span></h2>
+        </div>
+    </section>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="/join.html" class="join">Join the club</a></li>
+            <li><a href="/news.html">Latest news</a></li>
+            <li><a href="/images.html">New images</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>It's the astronomy lovers club</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aperiam quas molestiae facilis ipsa ducimus repellendus eligendi quis, odit laboriosam consectetur sint ratione sed ipsum exercitationem voluptatum pariatur, autem Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptate non in impedit dolores eos, officia voluptatibus amet maxime numquam aspernatur laborum suscipit ad odit inventore. Aliquid veniam illo tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vero aperiam vitae quo eaque nesciunt molestiae officia voluptas possimus! Quo alias modi consequatur praesentium sapiente aspernatur excepturi maxime vel fugit!</p>
+        </article>
+        <ul class="images">
+            <li><img src="img3/thumb-1.png" alt="astronomy thumb 1"></li>
+            <li><img src="img3/thumb-2.png" alt="astronomy thumb 2"></li>
+        </ul>
+    </main>
+    <section class="join">
+        <h2>Join Today!</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime asperiores voluptates perspici. </p>
+        <form>
+            <input id="email_input" type="email" name="email" placeholder="Type email & hit enter" required>
+
+        </form>
+
+    </section>
+    <footer>
+        <p class="copyright">Copyright 2022 Astronomyclub</p>
+    </footer>
+
+ 
+
+</body>
+</html>
+
+<script>
+    document.querySelector('#email_input').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+      alert('We will contact you soon.')
+    }
+});
+</script>
